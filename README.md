@@ -101,3 +101,14 @@ $ kill -SIGKILL 1234
 
 ### Signal의 종류
 ![rhkw](https://user-images.githubusercontent.com/106803178/171917212-71ee0da2-3482-4c00-b40d-730e96310694.PNG)
+
+-------------------------
+# vim 에디터 매크로 사용 방법
+
+1. 매크로 시작= q[name]
+2. ....(매크로 입력)
+3. 매크로 종료 = q
+4. 매크로 실행 = @[name]
+5. 매크로 여러번 실행 = [number]@[name] 
+
++ :u 작업 되돌리기
