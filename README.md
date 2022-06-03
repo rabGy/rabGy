@@ -35,7 +35,7 @@
 
 + **Unix Option** : 앞에 '-' (dash)가 붙는 옵션 표기방법 
 + **BSD Option** : '-' 를 붙이지 않음
-+ GNU Option : 명령어 앞에 '--' (double dash)를 붙임
++ **GNU Option** : 명령어 앞에 '--' (double dash)를 붙임
 
 ### 기본 ps 명령어 구성
 + ps -e, -A : 모든 프로세스를 보여줌 
