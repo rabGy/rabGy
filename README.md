@@ -46,7 +46,7 @@
 ![image](https://user-images.githubusercontent.com/106803178/171902418-775aa211-ef7e-4b2f-8e14-5704551375fe.png)
 ###### ↑ ps -ef의 결과 1
 ![image](https://user-images.githubusercontent.com/106803178/171902862-34eb6517-0695-491f-9f2c-33e16e0572a6.png)
-###### ↑ ps -ef 결과 2
+###### ↑ ps -ef의 결과 2
 
 + ps -u userlist : EUID 혹은 유저 이름으로 프로세스를 고름. 이때 여러 uid를 줄수 있는데 ','(comma)로 구분하여 명시해줌. euid는 프로세스가 수행할때 갖는 유저 권한을 말함.
 + ps -U userlist : -u 옵션과는 동일하나 RUID가 갖는 프로세스만을 찾아냄. ruid는 real user id라는 것으로 실제 프로그램을 실행한 uid를 의미함. 이때도 쉼표로 여러 uid를 지정할 수 있슴.
